@@ -1,0 +1,63 @@
+#logo_nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+#logo, #Navigation{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+    height: 100px;
+  
+    text-align: center;
+}
+#logo {
+    background-color: cyan;
+    
+}
+#Navigation {
+    background-color: greenyellow;
+}
+
+#Header , #text_area {
+    display: block;
+    text-align: center;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+#Header {
+    color: rgb(102, 35, 46);
+    background-color: darkkhaki;
+}
+#text_area {
+    margin: 10px;
+    color: rgb(114, 9, 26);
+    background-color: rgb(18, 113, 190);
+}
+
+#boxes {
+    background-color: dimgrey;
+    margin: 10px;
+    border: 2px solid rgb(12, 12, 12);
+}
+
+.box {
+    background-color: brown;
+    color: rgb(30, 6, 75);
+    display: inline-block;
+    width: 27%;
+    margin: 10px;
+    border: 1px solid red;
+}
+
+#footer {
+    text-align: center;
+    background-color: darkkhaki;
+    border: 1px solid black;
+    margin: 10px;
+}
