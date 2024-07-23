@@ -1,0 +1,53 @@
+@media(min-width: 500px) {
+    body {
+        background-color: blue;
+    }
+}
+@media(max-width: 499px){
+    body {
+        background-color: brown;
+    }
+}
+
+
+#Logo {
+    background-color: gray;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+#Navigation {
+    background-color: rgb(207, 236, 139);
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#Header {
+    background-color: beige;
+    text-align: center;
+    color:green;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#Body_Area {
+    background-color: grey;
+    color:blue;
+    margin: 10px;
+    border: 2px solid black;
+    text-align: left;
+    height: 500px;
+   
+    overflow: auto;
+    direction: rtl;
+}
+
+#footer {
+    text-align: center;
+    color:rgb(111, 160, 65);
+    background-color: darkgrey;
+}
